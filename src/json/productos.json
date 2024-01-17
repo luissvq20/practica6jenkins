@@ -1,0 +1,101 @@
+{
+    "plantas": [
+      {
+        "id": 1,
+        "nombre": "Pachira aquatica Mini",
+        "precio": 13.95,
+        "imagen_planta": "pachira.jpg",
+        "tipo": "interior",
+        "descripcion": "Planta interior compacta y fácil de cuidar con hojas exuberantes."
+      },
+      {
+        "id": 2,
+        "nombre": "Sansevieria trifasciata",
+        "precio": 12.95,
+        "imagen_planta": "Sansevieria.jpg",
+        "tipo": "interior",
+        "descripcion": "Lengua de suegra resistente y elegante para decoración interior."
+      },
+      {
+        "id": 3,
+        "nombre": "Aspidistra",
+        "precio": 23.95,
+        "imagen_planta": "Aspidistra.jpg",
+        "tipo": "interior",
+        "descripcion": "Planta clásica de interior conocida por su robustez y elegancia."
+      },
+      {
+        "id": 4,
+        "nombre": "Amarilis",
+        "precio": 9.95,
+        "imagen_planta": "Amarilis.jpg",
+        "tipo": "exterior",
+        "descripcion": "Hermosa planta de exterior con flores llamativas, fácil de cuidar."
+      },
+      {
+        "id": 5,
+        "nombre": "Brachycome",
+        "precio": 7.95,
+        "imagen_planta": "Brachycome.jpg",
+        "tipo": "exterior",
+        "descripcion": "Encantadora planta de exterior, flores pequeñas y fácil mantenimiento."
+      },
+      {
+        "id": 6,
+        "nombre": "Lilium orientalis",
+        "precio": 19.95,
+        "imagen_planta": "Lilium.jpg",
+        "tipo": "exterior",
+        "descripcion": "Lirio oriental majestuoso para destacar en jardines con flores grandes."
+      },
+      {
+        "id": 7,
+        "nombre": "Alcachofa",
+        "precio": 2.55,
+        "imagen_planta": "Alcachofa.jpg",
+        "tipo": "huerto",
+        "descripcion": "Versátil planta de huerto, produce capullos comestibles y gourmet."
+      },
+      {
+        "id": 8,
+        "nombre": "Apio",
+        "precio": 3.95,
+        "imagen_planta": "Apio.jpg",
+        "tipo": "huerto",
+        "descripcion": "Esencial en la cocina, apio con tallos crujientes para cultivo en huertos."
+      },
+      {
+        "id": 9,
+        "nombre": "Acelga",
+        "precio": 2.95,
+        "imagen_planta": "Acelga.jpg",
+        "tipo": "huerto",
+        "descripcion": "Verdura de hoja verde para huertos, sabor suave y nutritiva."
+      },
+      {
+        "id": 10,
+        "nombre": "Tomillo",
+        "precio": 15.99,
+        "imagen_planta": "Tomillo.jpg",
+        "tipo": "semilla",
+        "descripcion": "Hierba aromática clásica para cultivar desde semillas, ideal en cocina."
+      },
+      {
+        "id": 11,
+        "nombre": "Romero",
+        "precio": 12.95,
+        "imagen_planta": "Romero.jpg",
+        "tipo": "semilla",
+        "descripcion": "Hierba aromática y versátil, perfecta para cocina casera desde semillas."
+      },
+      {
+        "id": 12,
+        "nombre": "Cilantro",
+        "precio": 13.99,
+        "imagen_planta": "Cilantro.jpg",
+        "tipo": "semilla",
+        "descripcion": "Hierba popular con sabores herbáceos, cultívala desde semillas."
+      }
+    ]
+  }
+  

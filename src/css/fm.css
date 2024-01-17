@@ -1,0 +1,399 @@
+:root {
+    --blanco_roto: #EDE8D9;
+    --cabecera: #FFF7D0;
+    --azul_oscuro: #17191D;
+    --naranja_claro: #FE8A78;
+  }
+
+.cabecera{
+    background-color:var(--cabecera);
+}
+
+.cabecera_icono{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+}
+
+.logo{
+    width: 9rem;
+    height: 9rem;
+}
+
+.barra-busqueda{
+    background-color: var(--cabecera);
+    padding-bottom: 0.2rem;
+}
+
+.buscador{
+    width: 74%;
+    margin-left: 0.5rem;
+    height: 3rem;
+    border-color: #ebdce8;
+    border-radius: 0.5rem;
+
+}
+
+.buscador:focus{
+    border-color: #cf70bc;
+    outline: none;
+
+
+}
+
+
+.titulomodal{
+  font-weight: bold;
+}
+
+
+.button-compra {
+  font-family: 'DM Sans', sans-serif;
+
+  min-width: 8rem;
+  height: 3rem;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  background: #674e89;
+ z-index: 1;
+}
+.button-compra:hover:after {
+  width: 100%;
+  left: 0;
+}
+.button-compra:after {
+  border-radius: 5px;
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+  background-color: #a6621d69;
+  right: 0;
+}
+.button-compra:active {
+  top: 2px;
+}
+
+
+
+
+.button {
+  font-family: 'DM Sans', sans-serif;
+
+    min-width: 8rem;
+    height: 3rem;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    background: #969546;
+   z-index: 1;
+  }
+  .button:hover:after {
+    width: 100%;
+    left: 0;
+  }
+  .button:after {
+    border-radius: 5px;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+    background-color: #a6621d69;
+    right: 0;
+  }
+  .button:active {
+    top: 2px;
+  }
+
+  
+  .botonadd{
+    font-family: 'DM Sans', sans-serif;
+
+    min-width: 8rem;
+    height: 2.3rem;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    background: #5b32087d;
+    z-index: 1;
+  }
+  .botonadd:hover:after{
+    width: 100%;
+    left: 0;
+  }
+  .botonadd:after{
+    border-radius: 5px;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+    background-color: #a6621d69;
+    right: 0;
+  }
+  .botonadd:active{
+    top: 2px;
+  }
+
+  .buscar {
+    font-family: 'DM Sans', sans-serif;
+
+    min-width: 6.5rem;
+    height: 3rem;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    background: #072A26;
+   z-index: 1;
+  }
+  .buscar:hover:after {
+    width: 100%;
+    left: 0;
+  }
+  .buscar:after {
+    border-radius: 5px;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+    background-color: #1c3504e4;
+    right: 0;
+  }
+  .buscar:active {
+    top: 2px;
+  }
+
+.texto-carrusel{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img-galeria{
+  width: 100%;
+  display: block;
+  margin-bottom: 15px;
+  cursor: pointer;  
+  padding: 0%;  
+}
+
+
+
+.divimagen{
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+  margin-bottom: 10%;
+}
+
+.productos{
+  margin-left: 2%;
+  margin-right: 2%;
+
+}
+
+.total{
+  font-weight: bold;
+}
+
+.nombre{
+font-size: 1.2rem;
+font-family: 'DM Sans', sans-serif;
+}
+
+.precio{
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: 'DM Sans', sans-serif;
+
+}
+
+.descripcion{
+  font-family: 'DM Sans', sans-serif;
+}
+
+.carriton{
+  font-family: 'DM Sans', sans-serif;
+
+}
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+    .buscar {
+        min-width: 10rem;
+        height: 3rem;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 0.5rem;
+        border: none;
+        box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+        background: #072A26;
+       z-index: 1;
+      }
+
+    .button {
+        min-width: 7rem;
+        margin: 0%;
+        height: 3rem;
+        color: #fff;
+        padding: 0.25em 0.5em;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        outline: none;
+        border-radius: 0.5rem;
+        border: none;
+        box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+        background: #969546;
+       z-index: 1;
+      }
+
+
+      .button-compra {
+        min-width: 7rem;
+        margin: 0%;
+        height: 3rem;
+        color: #fff;
+        padding: 0.25em 0.5em;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 0.5rem;
+        border: none;
+        box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+        background: #674e89;
+        z-index: 1;
+      }
+  
+    
+  }
+  
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+  
+    .buscar {
+        min-width: 5.5rem;
+        height: 3rem;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 0.5rem;
+        border: none;
+        box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+        background: #072A26;
+       z-index: 1;
+      }
+   
+.button {
+    min-width: 3rem;
+    margin: 0%;
+    height: 3rem;
+    color: #fff;
+    padding: 0.25em 0.5em;
+    font-weight: bold;
+    font-size: 60%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    outline: none;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    background: #969546;
+   z-index: 1;
+  }
+
+  .button-compra {
+    min-width: 3rem;
+    margin: 0%;
+    height: 3rem;
+    color: #fff;
+    padding: 0.25em 0.5em;
+    font-weight: bold;
+    font-size: 60%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    background: #674e89;
+    z-index: 1;
+  }
+ 
+
+  .carraca{
+    display: none;
+  }
+    
+    
+  }
