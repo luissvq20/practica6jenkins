@@ -119,7 +119,20 @@ echo "dckr_pat_a550ywfxfrG0zeNPSWGgPm_Mvsc" >mypassword.txt
 * stage (push): Subir la imagen a docker hub.
 * stage(deploy): Accede al servidor de AWS desde el contenedor jenkins, este último no tiene acceso al servidor y he creado un archivo server.pem y en él hemos copiado el contenido del archivo que genera la instancia cuando se genera.
 ## Configuración de Despliegue Continuo
-* stage (Clean): Instala los plugins necesarios.
-  - 
-* stage (Clone): Clona el repositorio.
+* Instala los plugins necesarios.
+  - docker pipeline
+  - docker Plugin
+  - docker build sotp
+* Configura las credenciales necesarias para el entorno de despliegue.
+## Despliegue en servidor (Configuración AWS)
+*  Desarrolla los archivos de configuración para hacer un despliegue en AWS
+* Genera un fichero sh para el deploy o incluso un alias para los deploys
+* 
+Esta práctica proporcionará una comprensión práctica de cómo instalar Jenkins y configurar un ciclo de despliegue continuo en un entorno de desarrollo. Además, permitirá explorar opciones avanzadas para adaptar Jenkins a los requisitos específicos del proyecto. ¡Buena suerte!
+Necesitamos acceder al servidor de AWS desde el contenedor jenkins, este último no tiene acceso al servidor y he creado un archivo server.pem y en él hemos copiado el contenido del archivo que genera la instancia cuando se genera.
+Al archivo server.pem le he dao los permisos(chmod 400).
+Desde el comando ssh podemos acceder al servidor aws desde el contenedor jenkins.
+
+
+
 
